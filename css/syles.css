@@ -551,8 +551,12 @@
 }
 .Cursos {    
     display: flex;
+    /* flex-direction: column; */
     flex-wrap: wrap;
     justify-content: space-around;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
 }
 
 .Titulo {
@@ -575,8 +579,8 @@ article {
 }
 
 button {
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
     background: #85abda;
     border: solid white 1px;
     border-radius: 5px;
